@@ -1,0 +1,16 @@
+# Ephemeral agent workspaces — worktrees are local, never committed
+.worktrees/
+
+# Local Claude Code state (settings.local, installed skills, native worktrees)
+.claude/
+
+# Short-term scratch memory
+.remember/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# OS / editor cruft
+.DS_Store
