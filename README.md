@@ -43,15 +43,15 @@ PROJECT.md         this project's stack, commands, and gotchas
 
 ## Use it on a new project
 
-Point this repo to a new agent when you're starting — it should pull and set things up by
-itself. Then send a kickoff message like:
+Point a new agent at this repo and paste this:
 
-> Read CLAUDE.md and PROJECT.md. Fill in PROJECT.md for this project: \<one line on what
-> it is + the stack>. Then create the first task for \<goal> and start the build loop.
+```
+Read https://github.com/BhanuTabeti/agent-board and use it to set up this project.
+```
 
-Because the files are already present, `CLAUDE.md` governs the session automatically — the
-board is set up; you're just starting the first task. When work splits into independent
-parallel streams, the agent follows `.dev/WORKTREES.md`.
+It reads the repo, drops the baseline in, and `CLAUDE.md` takes over from there — the board
+is set up and you're starting the first task. When work splits into independent parallel
+streams, the agent follows `.dev/WORKTREES.md`.
 
 ## Credits
 
