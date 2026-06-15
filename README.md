@@ -43,9 +43,8 @@ PROJECT.md         this project's stack, commands, and gotchas
 
 ## Use it on a new project
 
-**Click "Use this template"** on GitHub to spin up a fresh repo from this — or copy
-`CLAUDE.md`, `PROJECT.md`, `.gitignore`, and `.dev/` into an existing repo. Then open
-Claude in that repo and send a kickoff message like:
+Point this repo to a new agent when you're starting — it should pull and set things up by
+itself. Then send a kickoff message like:
 
 > Read CLAUDE.md and PROJECT.md. Fill in PROJECT.md for this project: \<one line on what
 > it is + the stack>. Then create the first task for \<goal> and start the build loop.
